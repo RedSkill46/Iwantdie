@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.fragments.list.add.AddFragment">
+
+    <EditText
+        android:id="@+id/AddLAstName"
+        android:layout_width="223dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LastName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <EditText
+        android:id="@+id/AddFrirsName"
+        android:layout_width="179dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/AddAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Age"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="142dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/add_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
